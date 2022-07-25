@@ -1,0 +1,127 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "updated task 1",
+      "description": "updated description for task 1",
+      "task_status": "in-progress",
+      "tags": [
+        "personal"
+      ],
+      "subtask": [
+        {
+          "subtaskTitle": "task1:subtask 1",
+          "status": true
+        },
+        {
+          "subtaskTitle": "task1:subtask 2",
+          "status": false
+        },
+        {
+          "subtaskTitle": "task1:subtask 2",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "updated task 2",
+      "description": "description for task 2",
+      "task_status": "in-progress",
+      "tags": [
+        "personal",
+        "other"
+      ],
+      "subtask": [
+        {
+          "subtaskTitle": "task 1 of 2",
+          "status": true
+        },
+        {
+          "subtaskTitle": "rahul",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "task 3",
+      "description": "description for task 3",
+      "task_status": "done",
+      "tags": [
+        "official"
+      ],
+      "subtask": [
+        {
+          "subtaskTitle": "task3:subtask 1",
+          "status": true
+        },
+        {
+          "subtaskTitle": "task3:subtask 2",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "task 4",
+      "description": "description for task 4",
+      "task_status": "todo",
+      "tags": [
+        "other"
+      ],
+      "subtask": [
+        {
+          "subtaskTitle": "task4:subtask 1",
+          "status": false
+        },
+        {
+          "subtaskTitle": "task4:subtask 2",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "task 5",
+      "description": "description for task 5",
+      "task_status": "done",
+      "tags": [
+        "personal"
+      ],
+      "subtask": [
+        {
+          "subtaskTitle": "task5:subtask 1",
+          "status": false
+        },
+        {
+          "subtaskTitle": "task5:subtask 2",
+          "status": true
+        }
+      ]
+    },
+    {
+      "title": "Nokri",
+      "subtask": [
+        {
+          "subtaskTitle": "nav",
+          "status": false
+        },
+        {
+          "subtaskTitle": " header",
+          "status": false
+        },
+        {
+          "subtaskTitle": " sliding",
+          "status": false
+        }
+      ],
+      "description": "Crud App",
+      "task_status": "todo",
+      "tags": [
+        "official"
+      ],
+      "id": 6
+    }
+  ]
+}

@@ -10,8 +10,6 @@ import axios from "axios";
 import { ChakraProvider } from "@chakra-ui/react";
 
 
-// axios.
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>

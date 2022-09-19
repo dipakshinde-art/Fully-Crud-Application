@@ -9,7 +9,7 @@ import { store } from "./Redux_store/store";
 import axios from "axios";
 import { ChakraProvider } from "@chakra-ui/react";
 
-// axios.defaults.baseURL = "http://localhost:8080";
+
 // axios.defaults.headers.post["Content-Type"] = "application/json";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
